@@ -12,9 +12,9 @@ async function bootstrap() {
   app.useGlobalPipes(new ValidationPipe({ transform: true }));
   setupSwagger(app);
   const options = new DocumentBuilder()
-    .setTitle('Staywo Backend API\'s')
+    .setTitle('Test Backend API\'s')
     .setDescription(
-      'A rental property services project to connect private and commercial property owners to travelers around the world',
+      'Hussain Ghazali',
     )
     .setVersion('0.0.1')
     .build();
